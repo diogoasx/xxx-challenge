@@ -18,7 +18,7 @@ with open(BASE_DIR / "transactions.json", "r", encoding="utf-8") as file:
 CDV_API_KEY = os.getenv("CDV_API_KEY")
 SIGNING_KEY = os.getenv("SIGNING_KEY")
 
-mcp = FastMCP("meli-genai-security")
+mcp = FastMCP("dispute-assistant")
 
 @mcp.tool()
 def emails_list():
