@@ -114,6 +114,9 @@ async def process_email(email_id: str):
             tools=tools,
             tool_choice="auto",
             temperature=0,
+             max_completion_tokens=700,
+            reasoning_effort="none",
+            reasoning_format="hidden"
         )
 
         assistant_message = response.choices[0].message
