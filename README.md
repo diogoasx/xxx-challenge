@@ -548,7 +548,7 @@ The Cardholder Data Vault also contains fictional PAN values used only for the s
 ## Project Structure
 
 ```text
-meli-challenge/
+xxx-challenge/
 ├── app.py
 ├── vulnerable_app.py
 ├── mcp_server.py
